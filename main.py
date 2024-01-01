@@ -12,8 +12,8 @@ for filepath in filepaths:
     # Add a page to the PDF document for each text file
     pdf.add_page()
 
-    # Get the filename without the extention
-    # and convert it to title case (eg. Cat)
+    # Get the filename without the extension
+    # and convert it to title case (e.g. Cat)
     filename = Path(filepath).stem
     name = filename.title()
 
